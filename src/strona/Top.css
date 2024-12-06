@@ -1,0 +1,29 @@
+
+
+.kontener{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+.baner{
+    color:#c1121f;
+    margin:auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:600%;
+}
+.gatunki{
+    color:#780000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    font-size:200%;
+}
+hr{
+    border: 2px solid #c1121f;
+  border-radius: 5px;
+}

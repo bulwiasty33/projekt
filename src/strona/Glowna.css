@@ -1,0 +1,31 @@
+li{
+    list-style-type: none;
+}
+.tlo{
+    margin-top: 17%;
+    overflow: hidden;  
+}
+
+.kontener{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+.s{
+    color:#c1121f;
+    margin:auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:700%;
+}
+.link{
+    color:#780000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size:200%;
+}

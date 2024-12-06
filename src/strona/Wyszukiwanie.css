@@ -1,0 +1,31 @@
+.s{
+    color:#c1121f;
+    margin:auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:500%;
+}
+.text{
+    color:#780000;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size:200%;
+}
+.m{
+    width:19.5%;
+    float:left;
+    height: 700px;
+    padding:2px;
+}
+hr{
+    border:#780000 0.5px solid;
+}
+img{
+    height: 450px;
+}
+.button{
+    clear:both;
+}
