@@ -1,3 +1,111 @@
-*{
-    background-color: white;
-}
+/* Globalne style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Nagłówek z logo */
+  header {
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .logo {
+    float: left;
+    color: #ff6f61;
+    font-size: 72px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  /* Główna zawartość - przycisk losowego filmu */
+  .main-content {
+    margin-top: 80px;  /* Przesuwamy w dół, żeby było miejsce na logo */
+    text-align: center;
+  }
+  
+  .btn-random-movie {
+    margin-top: 30px;
+    margin-left: 25%;
+    float: left;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 24px;
+    padding: 40px 400px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-random-movie:hover {
+    background-color: #d85546;
+  }
+  
+  /* Strona szczegółów filmu */
+  .movie-page {
+    padding: 40px;
+    margin-top: 120px;  /* Przesuwamy w dół, aby była przestrzeń dla nagłówka */
+  }
+  
+  /* Kontener z informacjami o filmie */
+  .movie-detail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Sekcja z informacjami o filmie */
+  .movie-info {
+    width: 50%;
+    
+  }
+  
+  .movie-info h2 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #ff6f61;
+  }
+  
+  .movie-info p {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+  
+  /* Sekcja z plakatem filmu */
+  .movie-poster {
+    width: 35%;
+  
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Reponsywność */
+  @media screen and (max-width: 768px) {
+    .movie-detail-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .movie-info {
+      width: 100%;
+    }
+  
+    .movie-poster {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
